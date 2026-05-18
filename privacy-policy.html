@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JSON Lens Privacy Policy</title>
+    <style>
+      body {
+        color: #1f2937;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      main {
+        margin: 0 auto;
+        max-width: 820px;
+        padding: 40px 20px 64px;
+      }
+
+      h1 {
+        font-size: 36px;
+        letter-spacing: 0;
+        line-height: 1.1;
+        margin: 0 0 8px;
+      }
+
+      h2 {
+        font-size: 20px;
+        margin: 30px 0 8px;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+      }
+
+      .updated {
+        color: #667085;
+        margin-top: 0;
+      }
+
+      a {
+        color: #0b6fca;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>JSON Lens Privacy Policy</h1>
+      <p class="updated">Last updated: May 18, 2026</p>
+
+      <p>
+        JSON Lens is a Chrome extension that formats JSON responses directly in your browser.
+        This policy explains what data the extension processes and how that data is handled.
+      </p>
+
+      <h2>Personal Data</h2>
+      <p>
+        JSON Lens does not collect, sell, rent, or share personal data. The extension does not
+        create user profiles and does not use analytics or tracking scripts.
+      </p>
+
+      <h2>Page Content</h2>
+      <p>
+        JSON Lens reads the visible body text of pages only to detect and format raw JSON
+        responses. The content of pages you visit is processed locally in your browser and is
+        not transmitted to JSON Lens servers or third-party servers.
+      </p>
+
+      <h2>Payment Status</h2>
+      <p>
+        The only account-related data used by JSON Lens is payment status, such as whether the
+        current user has access to Pro features. Payment handling is provided by ExtensionPay.
+        ExtensionPay may process payment details and account email addresses according to its
+        own privacy policy:
+        <a href="https://extensionpay.com/privacy" rel="noopener noreferrer">https://extensionpay.com/privacy</a>.
+      </p>
+
+      <h2>Local Preferences</h2>
+      <p>
+        User preferences such as theme, font size, behavior toggles, cached payment status,
+        account email when provided by ExtensionPay, and upgrade banner dismissal time are
+        stored locally through <code>chrome.storage.local</code>. These preferences remain on
+        your device and are not transmitted by JSON Lens.
+      </p>
+
+      <h2>Permissions</h2>
+      <ul>
+        <li><strong>&lt;all_urls&gt;</strong>: Required to detect and format JSON responses on any website.</li>
+        <li><strong>storage</strong>: Required to save local preferences and cached payment status.</li>
+        <li><strong>activeTab</strong>: Required to apply changed settings to the active JSON page.</li>
+        <li><strong>scripting</strong>: Required to inject the JSON viewer into raw JSON response pages.</li>
+        <li><strong>webRequest</strong>: Required to inspect response Content-Type headers for JSON detection.</li>
+      </ul>
+
+      <h2>Data Retention</h2>
+      <p>
+        JSON Lens does not retain page content. Local preferences remain in Chrome storage until
+        you uninstall the extension or clear extension storage.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        For privacy questions, contact the developer using the support email listed on the
+        JSON Lens Chrome Web Store listing.
+      </p>
+    </main>
+  </body>
+</html>
